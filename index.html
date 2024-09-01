@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-1">
+            <img src="cenario-passo0.png" alt="">
+            <p>Olá, eu sou o professor Planc, sou arqueologo e estou em busca da cidade perdida do Rei Tutancamon, mas
+                oque eu não imaginava é que em uma de minhas expedições encontraria um Artefato e um mapa que
+                aparentemente poderia nos levar a uma grande descoberta, que entraria para a história, a cidade de
+                Atlântida, as localizações no mapa apontam para a Grecia e o temido triangulo das Bermuda, qual caminho
+                eu deveria escolher?
+            </p>
+            <button class="btn-proximo" data-proximo="1">Egito</button>
+            <button class="btn-proximo" data-proximo="2">Oceano Atlântico</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você começa sua aventura no Oceano Atlântico, você pega um barco e vai em direção ao triângulo das
+                bermudas, para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Egito</button>
+            <button class="btn-proximo" data-proximo="4">Procurar no Ocena Atlântico</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo0.png" alt="">
+            <p>No Oceano Atlântico, você vai ate 25°N de latitude e 71°W de longitude, 32,5°N de latitude e 64°W de
+                longitude e 26,5°N de latitude e 80°W de longitude. No mapa, uma das pistas indica que para localizar a
+                entrada para a cidade perdida você deve procurar a passagem debaixo do oceano, e para isso você irá
+                utilizar a roupa de mergulho</p>
+            <button class="btn-proximo" data-proximo="5">Desistir e voltar para o solo</button>
+            <button class="btn-proximo" data-proximo="6">Nadar até encontrar algo</button>
+        </div>
+        <div>
+
+            <div class="passo" id="passo-4">
+                <img src="cenario-passo0.png" alt="">
+                <p>No oceano você mergulha e acha uma caverna, você entrar e vai em direção a uma porta com diversos
+                    desenhos e uma fechadura em forma de mapa, você posiciona o mapa sobre o desenho e a porta se abre, você entrar e encontra uma porta falante e você terá que desvendar 3 enigmas para passa-lá.
+                </p>
+                <button class="btn-proximo" data-proximo="7">Aceitar o desafio</button>
+                <button class="btn-proximo" data-proximo="8">É muito dificil, voltar</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
